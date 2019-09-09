@@ -3,16 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 import Content from './Content';
 
-let x =10;
+import CharacterCard from './CharacterCard';
 class App extends Component {
-  
-  render() {
-    return (
-          <div className="App">
-            Hello{x}
-            <Content name="Marty" num="{x}"/>
-          </div>
-    );
-  }
+ render() {
+ return (
+ <div>
+ <CharacterCard value="h"/>
+<CharacterCard value="i"/>
+ </div>
+ );
+ }
 }
+
+
 export default App;
