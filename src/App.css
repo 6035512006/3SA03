@@ -1,0 +1,48 @@
+.card {
+  background-color: rgb(10, 10, 10); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.activeCard {
+ color: rgb(14, 14, 14);
+ background: rgb(255, 25, 0);
+}
+
+body {
+  background-color: #282c34;
+  background-image: url("https://img4.goodfon.com/original/1366x768/0/50/yu-gi-oh-art-anime-drakon-srazhenie-devochka.jpg");
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+
+h3{
+  border:8px solid #f80000;
+  padding:20px 80px; 
+  background:#000000;
+  width:100px;
+  border-radius:45px;
+}
+h4{
+  color: rgb(14, 14, 14);
+}
+
+.turn{
+  border:8px solid #f80000;
+  padding:20px 80px; 
+  background:#000000;
+  width:100px;
+  border-radius:45px;
+}

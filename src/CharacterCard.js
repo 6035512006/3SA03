@@ -1,8 +1,13 @@
 import React from 'react';
+
  class CharacterCard extends React.Component {
-     state = {
-        active: false
-    }
+     
+    constructor(){
+        super();
+        this.state = {
+            active: false
+          };
+     }
  
     activate = () => {
         this.setState({
@@ -15,11 +20,12 @@ import React from 'react';
     render() {
         let activeClass = this.state.active ? 'activeCard' : '';
         let className = `card ${activeClass}`
-        return (
-            <div className={className} onClick={this.activate}>
-                {this.props.value}
-            </div>
-        )
+                        
+                        return (
+                            <div className={className} onClick={this.activate}>
+                                {this.props.value}
+                            </div>
+                        );
     }
 }
 export default CharacterCard;
